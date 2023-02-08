@@ -4,6 +4,7 @@ import {
 } from "react-native-responsive-screen";
 
 export default {
+  px3: wp(0.72),
   px5: wp(1.2),
   px7: wp(1.69),
   px8: wp(1.93),
