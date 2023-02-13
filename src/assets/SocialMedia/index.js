@@ -1,7 +1,7 @@
-import LogoApple from "./apple.svg";
-import LogoGoogle from "./google.svg";
+import Apple from "./apple.svg";
+import Google from "./google.svg";
 
 export default {
-  LogoApple,
-  LogoGoogle,
+  Apple,
+  Google,
 };

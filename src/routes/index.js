@@ -3,7 +3,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 //Routes
-import { Login, SplashScreen } from "../screens";
+import { Login, SplashScreen, HomeScreen } from "../screens";
 
 const Stack = createNativeStackNavigator();
 
@@ -19,6 +19,11 @@ function Routers() {
         <Stack.Screen
           name="Login"
           component={Login}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="Home"
+          component={HomeScreen}
           options={{ headerShown: false }}
         />
       </Stack.Navigator>
