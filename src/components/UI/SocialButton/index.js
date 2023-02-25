@@ -1,6 +1,6 @@
 import React from "react";
 import { ActivityIndicator } from "react-native";
-import Icons from "../../../assets/SocialMedia";
+import Icons from "../../../assets/socialMedia";
 import { Wrapper, Text, ButtonWrapper } from "./styles";
 import Space from "../Space";
 
@@ -29,7 +29,7 @@ function SocialButton({
         round={round}
         type={type}
       >
-        {!loading && socials[type].icon}
+        {/* {!loading && socials[type].icon} */}
         <Space size={5} />
         <Text> {!loading && socials[type].name} </Text>
         {loading && <ActivityIndicator />}
