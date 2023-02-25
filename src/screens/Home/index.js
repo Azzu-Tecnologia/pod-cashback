@@ -1,6 +1,6 @@
 import React from "react";
 import { Wrapper } from "./styles";
-import Header from "../../components/Header";
+import Header from "src/components/Header";
 
 function HomeScreen() {
   return (

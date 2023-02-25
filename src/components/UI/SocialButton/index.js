@@ -1,6 +1,6 @@
 import React from "react";
 import { ActivityIndicator } from "react-native";
-import Icons from "../../../assets/SocialMedia";
+import Icons from "src/../assets/SocialMedia";
 import { Wrapper, Text, ButtonWrapper } from "./styles";
 import Space from "../Space";
 

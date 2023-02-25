@@ -1,5 +1,5 @@
 import styled from "styled-components/native";
-import { colors } from "../../../styles";
+import { colors } from "src/../styles";
 
 const Text = styled.Text`
   font-family: Inter_400Regular;

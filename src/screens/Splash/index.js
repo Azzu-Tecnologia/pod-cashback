@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Wrapper, WrapperLogo } from "./styles";
-import Logo from "../../assets/logos";
+import Logo from "src/assets/logos";
 
 function SplashScreen({ navigation }) {
   useEffect(() => {

@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, WrapperHeader, WrapperInfo, Wrapper } from "./styles";
-import { Text, Avatar, Space } from "../../components/UI/";
-import Icons from "../../assets/icons";
+import { Text, Avatar, Space } from "src/components/UI/";
+import Icons from "src/assets/icons";
 
 function Header() {
   return (
