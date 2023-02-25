@@ -1,15 +1,11 @@
 import React from "react";
-import { Wrapper, WrapperLogo } from "./styles";
-import Logo from "../../assets/logos";
+import { Wrapper } from "./styles";
+import Header from "../../components/Header";
 
 function HomeScreen() {
   return (
     <Wrapper>
-      <WrapperLogo>
-        <Logo.Minimal width="230px" height="230px" />
-      </WrapperLogo>
-      <Logo.Pod />
-      <Logo.CashBack />
+      <Header />
     </Wrapper>
   );
 }
