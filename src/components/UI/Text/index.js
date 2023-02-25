@@ -2,6 +2,7 @@ import styled from "styled-components/native";
 import { colors } from "../../../styles";
 
 const Text = styled.Text`
+  font-family: Inter_400Regular;
   font-size: ${({ size }) => size || 16}px;
   font-weight: ${({ weight }) => weight || 400};
   color: ${({ color }) => (color ? colors[color] || color : "#000")};

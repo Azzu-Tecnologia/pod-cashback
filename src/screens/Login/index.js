@@ -1,7 +1,7 @@
 import React from "react";
 import { Wrapper, WrapperLogo } from "./styles";
-import Logo from "../../assets/logos";
-import { Button, SocialButton, Space, Text } from "../../components/UI";
+import Logo from "src/assets/logos";
+import { Button, SocialButton, Space, Text } from "src/components/UI";
 
 function Login({ navigation }) {
   return (
