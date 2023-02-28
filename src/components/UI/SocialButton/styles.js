@@ -1,7 +1,7 @@
 import styled from "styled-components/native";
-import { colors } from "../../../styles";
+import { colors } from "src/styles";
 import UnstyledText from "../Text";
-import { metrics } from "../../../utils";
+import { metrics } from "src/utils";
 
 export const Wrapper = styled.View`
   height: 48px;

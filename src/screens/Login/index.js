@@ -21,7 +21,7 @@ function Login({ navigation }) {
       <Space size={12} />
       <SocialButton type="apple" />
       <Space />
-      <SocialButton type="google" />
+      {/* <SocialButton type="google" /> */}
     </Wrapper>
   );
 }
