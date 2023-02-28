@@ -1,23 +1,22 @@
 import React from "react";
 import { ActivityIndicator } from "react-native";
-import Icons from "../../../assets/SocialMedia";
+import Icons from "../../../assets/socialMedia";
 import { Wrapper, Text, ButtonWrapper } from "./styles";
+import Space from "../Space";
 
 function SocialButton({
   disabled,
   loading,
   onPress,
   type,
-  fontSize,
-  fontWeight,
   outline,
   square,
   round,
 }) {
   const socials = {
-    google: { name: "Google", icon: <Icons.Google size={18} /> },
+    google: { name: "Conectar com Google", icon: <Icons.Google size={18} /> },
     facebook: { name: "Facebook", icon: <Icons.Facebook size={18} /> },
-    apple: { name: "a Apple", icon: <Icons.Apple size={18} /> },
+    apple: { name: "Conectar com a Apple", icon: <Icons.Apple size={18} /> },
   };
   return (
     <Wrapper>
@@ -30,7 +29,9 @@ function SocialButton({
         round={round}
         type={type}
       >
-        {!loading && socials[type].icon}
+        {/* {!loading && socials[type].icon} */}
+        <Space size={5} />
+        <Text> {!loading && socials[type].name} </Text>
         {loading && <ActivityIndicator />}
       </ButtonWrapper>
     </Wrapper>
