@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { colors } from "../../styles";
+import { colors } from "src/styles";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { metrics } from "../../utils";
+import { metrics } from "src/utils";
 
 export const Wrapper = styled(SafeAreaView)`
   background-color: ${colors.primary};

@@ -25,10 +25,10 @@ export default {
   px(size) {
     return wp(size * 0.24);
   },
-  width(value) {
-    return wp(value);
+  width(size) {
+    return wp(size * 0.24);
   },
-  height(value) {
-    return hp(value);
+  height(size) {
+    return hp(size * 0.24);
   },
 };

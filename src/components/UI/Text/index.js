@@ -1,5 +1,5 @@
 import styled from "styled-components/native";
-import { colors } from "src/../styles";
+import { colors } from "src/styles";
 
 const fonts = {
   100: "Montserrat-Thin",

@@ -1,7 +1,7 @@
 import React from "react";
 import { ImageBackground } from "react-native";
 import styled from "styled-components";
-import { colors } from "src/../styles";
+import { colors } from "src/styles";
 
 const Wrapper = styled.View`
   background: ${colors.secondary};

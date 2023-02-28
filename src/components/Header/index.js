@@ -23,7 +23,7 @@ function Header() {
         <Text size={12} weight={300}>
           Cashback Disponível
         </Text>
-        <Text size={40} weight={700}>
+        <Text size={40} weight={600}>
           R$ 243,13
         </Text>
       </WrapperInfo>
